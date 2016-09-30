@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.and.lovelivesmatter">
+
+    <application
+        android:name=".LoveLivesMatterApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".LandingActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeTransparentStatusbar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SignInActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".SignUp1Activity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeSignUp"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".SignUp2Activity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeSignUp"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".SignUp3Activity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeSignUp"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".InviteActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeSignUp"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeSignUp"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeSignUp"
+            android:windowSoftInputMode="stateHidden">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.and.lovelivesmatter.MainActivity" />
+        </activity>
+        <activity
+            android:name=".MyProfileActivity"
+            android:label="@string/title_activity_my_profile"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeTransparentStatusbar"
+            android:windowSoftInputMode="stateHidden">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.and.lovelivesmatter.MainActivity" />
+        </activity>
+        <activity
+            android:name=".HelpActivity"
+            android:label="@string/title_activity_help"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeSignUp"
+            android:windowSoftInputMode="stateHidden">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.and.lovelivesmatter.MainActivity" />
+        </activity>
+        <activity
+            android:name=".TodoActivity"
+            android:label="@string/title_activity_todo"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeSignUp"
+            android:windowSoftInputMode="stateHidden">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.and.lovelivesmatter.MainActivity" />
+        </activity>
+        <activity
+            android:name=".MomentsActivity"
+            android:label="@string/title_activity_momemts"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeSignUp"
+            android:windowSoftInputMode="stateHidden">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.and.lovelivesmatter.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ExpectationsActivity"
+            android:label="@string/title_activity_expectations"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeSignUp"
+            android:windowSoftInputMode="stateHidden">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.and.lovelivesmatter.MainActivity" />
+        </activity>
+        <activity
+            android:name=".DateToNightActivity"
+            android:label="@string/title_activity_date_to_night"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeSignUp"
+            android:windowSoftInputMode="stateHidden">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.and.lovelivesmatter.MainActivity" />
+        </activity>
+        <activity
+            android:name=".NotificationActivity"
+            android:label="@string/title_activity_notification"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeSignUp"
+            android:windowSoftInputMode="stateHidden">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.and.lovelivesmatter.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ChangePasswordActivity"
+            android:label="@string/title_activity_change_password"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeSignUp"
+            android:windowSoftInputMode="stateHidden">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.and.lovelivesmatter.SettingsActivity" />
+        </activity>
+    </application>
+
+</manifest>

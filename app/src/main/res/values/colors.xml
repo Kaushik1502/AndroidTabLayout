@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#e84a5f</color>
+    <color name="colorPrimaryDark">#ab4955</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorAccentBrown">#4b1f20</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="landing_btn_txt_color">#49060b</color>
+    <color name="sign_up_status_bar_color">#ab4955</color>
+    <color name="sign_up_txt_color">#fde5e4</color>
+    <color name="sign_up_sign_in_txt_color">#ff94a3</color>
+    <color name="relation_type_txt_color">#d7cccb</color>
+    <color name="tab_selected_txt_color">#fae7e3</color>
+    <color name="tab_deselected_txt_color">#b58585</color>
+    <color name="tab_bg_color">#592b2b</color>
+    <color name="menu_txt_color">#585858</color>
+    <color name="moments_bg">#eee4e4</color>
+    <color name="status_txt_color">#a5a5a5</color>
+    <color name="serial_no_love_diary_txt_color">#b3394a</color>
+    <color name="notification_body_txt_color">#a2a2a2</color>
+    <color name="notification_time_txt_color">#e84a5f</color>
+    <color name="settings_light_brown_bg">#cdbdbe</color>
+    <color name="calendar_selected_bg">#b4394b</color>
+    <color name="chng_password_txt_color">#48060a</color>
+    <color name="header_edt_txt_color">#909090</color>
+    <color name="horoscope_percentage_txt_color">#e84a5f</color>
+    <color name="horoscope_percentage_progress_txt_color">#faf494</color>
+    <color name="horoscope_bottom_txt_color">#56322b</color>
+    <color name="timeline_time_txt_color">#8f8f8f</color>
+
+    <!-- SwipeRefreshLayout: Customize colors here -->
+    <color name="color1">#ff0f9d58</color>
+    <color name="color2">#ffdb4437</color>
+    <color name="color3">#ff4285f4</color>
+    <color name="color4">#fff4b400</color>
+</resources>

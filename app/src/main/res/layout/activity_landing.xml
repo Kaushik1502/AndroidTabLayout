@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context="com.and.lovelivesmatter.LandingActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:layout_gravity="center"
+            android:src="@drawable/logo_placeholder"
+            android:contentDescription="@string/content_desc"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp">
+
+        <com.and.lovelivesmatter.customviews.ArapeyItalicTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center_horizontal"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="23sp"
+            android:text="@string/landing_static_txt"/>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <com.and.lovelivesmatter.customviews.ArapeyRegularButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sign_in"
+            android:id="@+id/signInBtn"
+            android:layout_marginBottom="6dp"
+            android:textAllCaps="false"
+            android:textSize="15sp"
+            android:textColor="@color/landing_btn_txt_color"
+            android:background="@drawable/signin_button_bg"
+            android:layout_gravity="center_horizontal" />
+
+        <com.and.lovelivesmatter.customviews.ArapeyRegularButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sign_up"
+            android:id="@+id/signUpBtn"
+            android:textAllCaps="false"
+            android:background="@drawable/signup_button_bg"
+            android:textColor="@color/landing_btn_txt_color"
+            android:textSize="15sp"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+</LinearLayout>

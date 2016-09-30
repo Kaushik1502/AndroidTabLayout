@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view = "http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardBackgroundColor="@color/white"
+    card_view:cardElevation="2dp"
+    card_view:cardCornerRadius = "0dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginBottom="4dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/profile_image_2"
+                android:id="@+id/profilePicImgView"
+                android:contentDescription="@string/content_desc"/>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginEnd="8dp">
+
+                <com.and.lovelivesmatter.customviews.RobotoRegularTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Alyssa Milano"
+                    android:textColor="@color/menu_txt_color"
+                    android:textSize="13sp"
+                    android:id="@+id/userNameTxtView"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginEnd="2dp"/>
+
+                <com.and.lovelivesmatter.customviews.RobotoLightTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="posted this"
+                    android:textSize="13sp"
+                    android:textColor="@color/timeline_time_txt_color"
+                    android:id="@+id/titleTxtView"
+                    android:layout_toRightOf="@+id/userNameTxtView"
+                    android:layout_toEndOf="@+id/userNameTxtView"/>
+
+                <com.and.lovelivesmatter.customviews.RobotoLightTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="February 16 at 7:15 pm"
+                    android:textSize="12sp"
+                    android:layout_marginTop="2dp"
+                    android:textColor="@color/timeline_time_txt_color"
+                    android:id="@+id/timeTxtView"
+                    android:layout_below="@+id/userNameTxtView" />
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/overflow_icon"
+                android:id="@+id/menuImgView"
+                android:contentDescription="@string/content_desc"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line_timeline"
+            android:contentDescription="@string/content_desc"/>
+
+        <com.and.lovelivesmatter.customviews.RobotoLightTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="@color/menu_txt_color"
+            android:id="@+id/bodyTxtView"
+            android:layout_margin="16dp"
+            android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley lorem ipsum is simply dummy text of the printing and typesetting industry. "/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bodyImgView"
+            android:src="@drawable/posted_image"
+            android:layout_gravity="center_horizontal"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp">
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <com.and.lovelivesmatter.customviews.ArapeyRegularButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Like (5)"
+                    android:background="@drawable/like_button_bg"
+                    android:textColor="@color/white"
+                    android:id="@+id/likeBtn"
+                    android:minHeight="0dp"
+                    android:minWidth="0dp"
+                    android:textAllCaps="false"
+                    android:textSize="12sp"/>
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <com.and.lovelivesmatter.customviews.ArapeyRegularButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Comment (1)"
+                    android:background="@drawable/like_button_bg"
+                    android:textColor="@color/white"
+                    android:id="@+id/commentBtn"
+                    android:minHeight="0dp"
+                    android:minWidth="0dp"
+                    android:textAllCaps="false"
+                    android:textSize="12sp"/>
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <com.and.lovelivesmatter.customviews.ArapeyRegularButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Share"
+                    android:background="@drawable/add_button_bg"
+                    android:textColor="@color/white"
+                    android:id="@+id/shareBtn"
+                    android:minHeight="0dp"
+                    android:minWidth="0dp"
+                    android:textAllCaps="false"
+                    android:textSize="12sp"/>
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>

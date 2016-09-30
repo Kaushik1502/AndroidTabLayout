@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/moments_bg"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.and.lovelivesmatter.MyProfileActivity"
+    tools:showIn="@layout/activity_my_profile">
+
+    <RelativeLayout
+        android:id="@+id/headerRelative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/profile_hedar_image">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/profile_image"
+            android:contentDescription="@string/content_desc"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/birthLinear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/headerRelative"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp">
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view = "http://schemas.android.com/apk/res-auto"
+            android:layout_width = "match_parent"
+            android:layout_height = "wrap_content"
+            card_view:cardBackgroundColor="@color/white"
+            card_view:cardCornerRadius = "0dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="22dp"
+                android:layout_marginStart="22dp"
+                android:padding="16dp">
+
+                <com.and.lovelivesmatter.customviews.RobotoRegularTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:textColor="@color/menu_txt_color"
+                    android:text="@string/time_of_birth"
+                    android:layout_marginBottom="4dp"/>
+
+                <com.and.lovelivesmatter.customviews.RobotoLightTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:text="@string/time_value"/>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/headerRelative"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:src="@drawable/line_pointer_profile"
+        android:contentDescription="@string/content_desc"/>
+
+    <LinearLayout
+        android:id="@+id/cityLinear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/birthLinear"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp">
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view = "http://schemas.android.com/apk/res-auto"
+            android:layout_width = "match_parent"
+            android:layout_height = "wrap_content"
+            card_view:cardBackgroundColor="@color/white"
+            card_view:cardCornerRadius = "0dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp">
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/birthLinear"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:src="@drawable/line_pointer_profile"
+        android:contentDescription="@string/content_desc"/>
+
+    <LinearLayout
+        android:id="@+id/stateCountryLinear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cityLinear"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp">
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view = "http://schemas.android.com/apk/res-auto"
+            android:layout_width = "match_parent"
+            android:layout_height = "wrap_content"
+            card_view:cardBackgroundColor="@color/white"
+            card_view:cardCornerRadius = "0dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp">
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cityLinear"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:src="@drawable/line_pointer_profile"
+        android:contentDescription="@string/content_desc"/>
+
+    <LinearLayout
+        android:id="@+id/anniversaryLinear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/stateCountryLinear"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="8dp">
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view = "http://schemas.android.com/apk/res-auto"
+            android:layout_width = "match_parent"
+            android:layout_height = "wrap_content"
+            card_view:cardBackgroundColor="@color/white"
+            card_view:cardCornerRadius = "0dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp">
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/stateCountryLinear"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:src="@drawable/line_pointer_profile"
+        android:contentDescription="@string/content_desc"/>
+
+</RelativeLayout>

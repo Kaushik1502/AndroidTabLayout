@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="3dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/videoThumbImgView"
+        android:layout_gravity="center"
+        android:contentDescription="@string/content_desc"
+        android:src="@drawable/video_1"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/playImgView"
+        android:layout_gravity="center"
+        android:contentDescription="@string/content_desc"
+        android:src="@drawable/video_icon"/>
+</FrameLayout>

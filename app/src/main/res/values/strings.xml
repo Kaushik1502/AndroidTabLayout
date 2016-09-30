@@ -1,0 +1,211 @@
+<resources>
+    <string name="app_name">Love lives matter</string>
+
+    <string name="content_desc">Image</string>
+
+    <!--landing screen-->
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="landing_static_txt">There\'s a million apps to help us get together, here\'s one to help us stay together</string>
+
+    <!--sign up-->
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="select_gender">Select Gender</string>
+    <string name="location">Location</string>
+    <string name="phn_no">Phone Number</string>
+    <string name="next">Next</string>
+    <string name="already_account">Already have an account?\u0020</string>
+    <string name="monogamy">Monogamy</string>
+    <string name="polygamy">Polygamy</string>
+    <string name="engagement">Engagement</string>
+    <string name="marriage">Marriage</string>
+    <string name="select_relationship">Select Relationship Type</string>
+    <string name="select_country">Select Country</string>
+
+    <!--sign in-->
+    <string name="cant_access">Can\'t access your account?</string>
+
+    <!--invite-->
+    <string name="invite_partner">Invite your partner</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!--overflow menu items-->
+    <string name="action_settings">Settings</string>
+    <string name="my_profile">My Profile</string>
+    <string name="help">Help</string>
+    <string name="log_out">Log Out</string>
+    <string name="notification">Notification</string>
+
+    <!--tab menu items-->
+    <string name="timeline">Timeline</string>
+    <string name="invite">Invite</string>
+    <string name="horoscope">Horoscope</string>
+    <string name="hot_night">Hot Night</string>
+    <string name="chat">Chat</string>
+    <string name="love_diary">Love Diary</string>
+
+    <!--moment tab menu items-->
+    <string name="photo">Photo</string>
+    <string name="video">Video</string>
+
+    <!--expectations tab menu items-->
+    <string name="expectation_from_me">Expectations from Me</string>
+    <string name="my_expectation">My Expectations</string>
+
+    <!--sliding menus-->
+    <string name="moments">Moments</string>
+    <string name="secrets">Secrets</string>
+    <string name="todo">To-Do</string>
+    <string name="expectations">Expectations</string>
+    <string name="calendar">Calendar</string>
+    <string name="date_tonight">Date Tonight</string>
+    <string name="want_to_talk">Want to Talk</string>
+
+    <!--love diary-->
+    <string name="monthly">Monthly</string>
+    <string name="quarterly">Quarterly</string>
+    <string name="annually">Annually</string>
+    <string name="expectations_love_diary">expectations</string>
+    <string name="expectations_from_me">expectations from me</string>
+    <string name="agreed">Agreed</string>
+    <string name="disagreed">Disagreed</string>
+    <string name="met">Met</string>
+    <string name="not_met">Not Met</string>
+
+    <!--settings-->
+    <string name="notification_settings">Notification Settings</string>
+    <string name="new_invite">New Invite</string>
+    <string name="new_expectations">New Expectations</string>
+    <string name="new_want_to_talk_calls">New Want to Talk Calls</string>
+    <string name="daily_horoscope">Daily Horoscope</string>
+    <string name="timeline_post_from_partner">Timeline Post from Partner</string>
+    <string name="chats_from_partner">Chats from Partner</string>
+    <string name="secrets_from_partners">Secrets from Partners</string>
+    <string name="update_in_love_diary">Update in Love Diary(Review Stats)</string>
+    <string name="to_do_reminders">To-Do Reminders and on Date Notifications</string>
+    <string name="change_password">Change Password</string>
+    <string name="delete_account">Delete Account</string>
+    <string name="rate_this_app">Rate This App</string>
+
+    <!--change password-->
+    <string name="enter_old_password">Enter old password</string>
+    <string name="enter_new_password">Enter new password</string>
+    <string name="reenter_new_password">Re enter new password</string>
+    <string name="save">Save</string>
+
+    <!--my profile-->
+    <string name="time_of_birth">Time of Birth</string>
+    <string name="time_value">2nd December 1989, 11:00 a.m</string>
+    <string name="town_city">Town/City</string>
+    <string name="town_value">Washington</string>
+    <string name="state_country">State &amp; Country</string>
+    <string name="state_country_value">Virginia, USA</string>
+    <string name="date_anniversary">Date of Anniversary</string>
+    <string name="date_anniversary_value">16th January, 2016</string>
+    <string name="name">Mark Cuban</string>
+    <string name="city_state_country">Washington, Virginia, USA</string>
+
+    <!--expectation-->
+    <string name="add_expectation">Add Expectations</string>
+    <string name="add">Add</string>
+
+    <!--to-do-->
+    <string name="add_to_do">Add to-do</string>
+
+    <!--horoscope-->
+    <string name="today_you_are">Today you are</string>
+    <string name="percentage_value">90%</string>
+    <string name="in_love">in love &#8230;</string>
+    <string name="scorpion">Scorpion</string>
+
+    <!--timeline-->
+    <string name="what_up">What\'s up &#8230;</string>
+    <string name="post">Post</string>
+
+    <string-array name="sliding_menu_array">
+        <item>Moments</item>
+        <item>Secrets</item>
+        <item>To-Do</item>
+        <item>Expectations</item>
+        <item>Calendar</item>
+        <item>Date Tonight</item>
+        <item>Want to Talk</item>
+    </string-array>
+    <string name="title_activity_notification">Notification</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="title_activity_todo">To-do</string>
+    <string name="title_activity_momemts">Momemts</string>
+    <string name="title_activity_expectations">Expectations</string>
+    <string name="title_activity_my_profile">My Profile</string>
+
+    <string name="title_activity_help">Help</string>
+    <string name="title_activity_date_to_night">Date to night</string>
+    <string name="title_activity_change_password">Change Password</string>
+
+</resources>

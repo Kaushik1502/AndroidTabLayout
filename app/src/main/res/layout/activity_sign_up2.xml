@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/signup_bg">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:fitsSystemWindows="true"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/content_desc"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/crossImgView"
+                android:src="@drawable/cross_icon"/>
+
+            <com.and.lovelivesmatter.customviews.RobotoLightEditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:hint="@string/first_name"
+                android:ems="10"
+                android:id="@+id/firstNameEditTxt"
+                android:singleLine="true"
+                android:gravity="center"
+                android:paddingLeft="22dp"
+                android:paddingRight="22dp"
+                android:background="@drawable/edt_txt_selector"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:textSize="13sp"
+                android:textColor="@color/sign_up_txt_color"
+                android:textColorHint="@color/sign_up_txt_color"/>
+
+            <com.and.lovelivesmatter.customviews.RobotoLightEditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:hint="@string/last_name"
+                android:ems="10"
+                android:id="@+id/lastNameEditTxt"
+                android:singleLine="true"
+                android:gravity="center"
+                android:paddingLeft="22dp"
+                android:paddingRight="22dp"
+                android:background="@drawable/edt_txt_selector"
+                android:layout_gravity="center_horizontal"
+                android:textSize="13sp"
+                android:textColor="@color/sign_up_txt_color"
+                android:textColorHint="@color/sign_up_txt_color"/>
+
+            <com.and.lovelivesmatter.customviews.RobotoLightEditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:hint="@string/email"
+                android:ems="10"
+                android:id="@+id/emailEditTxt"
+                android:singleLine="true"
+                android:gravity="center"
+                android:paddingLeft="22dp"
+                android:paddingRight="22dp"
+                android:background="@drawable/edt_txt_selector"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="16dp"
+                android:textSize="13sp"
+                android:textColor="@color/sign_up_txt_color"
+                android:textColorHint="@color/sign_up_txt_color"/>
+
+            <com.and.lovelivesmatter.customviews.RobotoLightEditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:hint="@string/password"
+                android:ems="10"
+                android:id="@+id/passwordEditTxt"
+                android:singleLine="true"
+                android:gravity="center"
+                android:paddingLeft="22dp"
+                android:paddingRight="22dp"
+                android:background="@drawable/edt_txt_selector"
+                android:layout_gravity="center_horizontal"
+                android:textSize="13sp"
+                android:textColor="@color/sign_up_txt_color"
+                android:textColorHint="@color/sign_up_txt_color"/>
+
+            <com.and.lovelivesmatter.customviews.RobotoLightEditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:hint="@string/confirm_password"
+                android:id="@+id/confirmPasswordEdtTxt"
+                android:singleLine="true"
+                android:gravity="center"
+                android:paddingLeft="22dp"
+                android:paddingRight="22dp"
+                android:background="@drawable/edt_txt_selector"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:textSize="13sp"
+                android:textColor="@color/sign_up_txt_color"
+                android:textColorHint="@color/sign_up_txt_color"/>
+
+            <com.and.lovelivesmatter.customviews.RobotoLightTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/date_of_birth"
+                android:id="@+id/dobTxtView"
+                android:background="@drawable/text_field_line"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:layout_marginBottom="16dp"
+                android:textSize="13sp"
+                android:textColor="@color/sign_up_txt_color"/>
+
+            <com.and.lovelivesmatter.customviews.RobotoLightButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/select_gender"
+                android:background="@drawable/down_arrow"
+                android:id="@+id/selectGenderBtn"
+                android:layout_gravity="center_horizontal"
+                android:textSize="13sp"
+                android:textColor="@color/sign_up_txt_color"/>
+
+            <com.and.lovelivesmatter.customviews.RobotoLightButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/select_country"
+                android:background="@drawable/down_arrow"
+                android:id="@+id/selectCountryBtn"
+                android:layout_gravity="center_horizontal"
+                android:textSize="13sp"
+                android:textColor="@color/sign_up_txt_color"/>
+
+            <com.and.lovelivesmatter.customviews.RobotoLightEditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/location"
+                android:id="@+id/locationEdtTxt"
+                android:singleLine="true"
+                android:gravity="center"
+                android:paddingLeft="22dp"
+                android:paddingRight="22dp"
+                android:background="@drawable/text_field_line"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:textSize="13sp"
+                android:textColor="@color/sign_up_txt_color"
+                android:textColorHint="@color/sign_up_txt_color"/>
+
+            <com.and.lovelivesmatter.customviews.RobotoLightEditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/phn_no"
+                android:inputType="phone"
+                android:id="@+id/phnEdtTxt"
+                android:singleLine="true"
+                android:gravity="center"
+                android:paddingLeft="22dp"
+                android:paddingRight="22dp"
+                android:background="@drawable/text_field_line"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:textSize="13sp"
+                android:textColor="@color/sign_up_txt_color"
+                android:textColorHint="@color/sign_up_txt_color"/>
+
+            <com.and.lovelivesmatter.customviews.ArapeyRegularButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/next"
+                android:textAllCaps="false"
+                android:id="@+id/nextBtn"
+                android:textSize="15sp"
+                android:textColor="@color/landing_btn_txt_color"
+                android:background="@drawable/next_button_bg"
+                android:layout_gravity="center_horizontal" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginTop="16dp">
+
+                <com.and.lovelivesmatter.customviews.RobotoLightTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/already_account"
+                    android:textSize="13sp"
+                    android:textColor="@color/sign_up_txt_color"
+                    android:layout_gravity="center_horizontal" />
+
+                <com.and.lovelivesmatter.customviews.RobotoLightTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sign_in"
+                    android:id="@+id/signInTxtView"
+                    android:textSize="13sp"
+                    android:textColor="@color/sign_up_sign_in_txt_color"
+                    android:layout_gravity="center_horizontal" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/signup_bg"
+    android:fitsSystemWindows="true">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/content_desc"
+            android:layout_gravity="center"
+            android:id="@+id/crossImgView"
+            android:src="@drawable/cross_icon"/>
+    </FrameLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:layout_gravity="center_horizontal">
+
+        <com.and.lovelivesmatter.customviews.RobotoLightTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/select_relationship"
+            android:background="@drawable/select_relationship_line"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:textSize="13sp"
+            android:textColor="@color/white"
+            android:layout_marginBottom="22dp"/>
+
+        <FrameLayout
+            android:id="@+id/monogamyFrameLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/relationship_type_bg">
+
+            <com.and.lovelivesmatter.customviews.ArapeyRegularTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/monogamy"
+                android:textSize="15sp"
+                android:textColor="@color/relation_type_txt_color"
+                android:layout_gravity="center" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/monogamyTickImgView"
+                android:src="@drawable/tick_icon"
+                android:layout_gravity="end|center_vertical"
+                android:layout_marginRight="8dp"
+                android:layout_marginEnd="8dp"
+                android:contentDescription="@string/content_desc"
+                android:visibility="invisible"/>
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/polygamyFrameLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/relationship_type_bg"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+
+            <com.and.lovelivesmatter.customviews.ArapeyRegularTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/polygamy"
+                android:textSize="15sp"
+                android:textColor="@color/relation_type_txt_color"
+                android:layout_gravity="center" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/polygamyTickImgView"
+                android:src="@drawable/tick_icon"
+                android:layout_gravity="end|center_vertical"
+                android:layout_marginRight="8dp"
+                android:layout_marginEnd="8dp"
+                android:contentDescription="@string/content_desc"
+                android:visibility="invisible"/>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/relationship_type_bg"
+            android:id="@+id/engagementFrameLayout">
+
+            <com.and.lovelivesmatter.customviews.ArapeyRegularTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/engagement"
+                android:textSize="15sp"
+                android:textColor="@color/relation_type_txt_color"
+                android:layout_gravity="center" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/engagementTickImgView"
+                android:src="@drawable/tick_icon"
+                android:layout_gravity="end|center_vertical"
+                android:layout_marginRight="8dp"
+                android:layout_marginEnd="8dp"
+                android:contentDescription="@string/content_desc"
+                android:visibility="invisible"/>
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/marriageFrameLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/relationship_type_bg"
+            android:layout_marginTop="8dp">
+
+            <com.and.lovelivesmatter.customviews.ArapeyRegularTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/marriage"
+                android:textSize="15sp"
+                android:textColor="@color/relation_type_txt_color"
+                android:layout_gravity="center" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/marriageTickImgView"
+                android:src="@drawable/tick_icon"
+                android:layout_gravity="end|center_vertical"
+                android:layout_marginRight="8dp"
+                android:layout_marginEnd="8dp"
+                android:contentDescription="@string/content_desc"
+                android:visibility="invisible"/>
+        </FrameLayout>
+        <com.and.lovelivesmatter.customviews.ArapeyRegularButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sign_up"
+            android:textAllCaps="false"
+            android:id="@+id/signUpBtn"
+            android:textSize="15sp"
+            android:textColor="@color/landing_btn_txt_color"
+            android:background="@drawable/next_button_bg"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="22dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="16dp">
+
+            <com.and.lovelivesmatter.customviews.RobotoLightTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/already_account"
+                android:textSize="13sp"
+                android:textColor="@color/sign_up_txt_color"
+                android:layout_gravity="center_horizontal" />
+
+            <com.and.lovelivesmatter.customviews.RobotoLightTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sign_in"
+                android:id="@+id/signInTxtView"
+                android:textSize="13sp"
+                android:textColor="@color/sign_up_sign_in_txt_color"
+                android:layout_gravity="center_horizontal" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

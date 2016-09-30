@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/notification"
+        android:orderInCategory="100"
+        android:title="@string/notification"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/notification_icon"/>
+
+    <item
+        android:id="@+id/myProfile"
+        android:orderInCategory="101"
+        android:title="@string/my_profile"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/settings"
+        android:orderInCategory="102"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/help"
+        android:orderInCategory="103"
+        android:title="@string/help"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/logOut"
+        android:orderInCategory="104"
+        android:title="@string/log_out"
+        app:showAsAction="never" />
+</menu>
